@@ -1,0 +1,160 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #D9D9D9;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    padding: 85px 0;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list{
+    display: flex;
+    gap: 170px;
+}
+
+.header__nav a {
+    font-weight: 700;
+    font-size: 24px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.header__nav a.active {
+    font-weight: 700;
+    font-size: 24px;
+    opacity: 1;
+
+}
+
+.menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 73px;
+}
+
+.menu-button {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 40px;
+    transition: opacity 0.3s;
+}
+
+.menu-button__line {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #FFFFFF;
+    margin: 3px;
+}
+
+.menu-button:hover {
+    opacity: 0.8;
+}
+
+.header__nav a.active {
+    opacity: 1;
+}
+
+.header__nav a:hover {
+    opacity: 0.9;
+}
+
+.welcome {
+    margin-top: -230px;
+    padding-top: 470px;
+    background-image: url(../img/welcome-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome .welcome__desc{
+    width: 520px;
+}
+
+.welcome__title {
+    font-family: "Unbounded", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+}
+
+.welcome__desc {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.promo {
+    padding-top: 245px;
+    padding-bottom: 50px;
+    display: flex;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promo__slide {
+    height: 170px;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.footer__list{
+    display: flex;
+    gap: 190px;
+}
+
+.footer__nav a {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.header_logo_2 {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
