@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Vision</title>
+    </head>
+
+<body>
+
+    <header>
+        <div class="wrapper">
+            <div class="header">
+                <img src="./img/icons/Vision.svg" class="header__logo" alt="Логотип">
+                <ul class="header__menu">
+                    <li class="menu__item"><a class="active" href="#section1">Главная</a></li>
+                    <li class="menu__item"><a href="#section2">Смотреть</a></li>
+                    <li class="menu__item"><a href="#section3">Читать</a></li>
+                </ul>
+                <div class="header__burger">
+                    <span class="burger-menu__line"></span>
+                    <span class="burger-menu__line"></span>
+                    <span class="burger-menu__line"></span>
+                </div>
+            </div>
+        </div>
+        <img src="./img/welcome-bg.jpg" class="background-image" alt="Фон">
+    </header>
+
+    <main>
+        <section class="info">
+            <div class="wrapper">
+                <div class="info__wrapper">
+                    <h1 class="info__title" id="section1">Киноэнциклопедия</h1>
+                    <p class="info__text">Поможет разобраться в истории кинематографа, познакомит с культовыми картинами и режиссерами</p>
+                </div>
+                <div class="popular">
+                    <div class="popular__content">
+                        <button class="popular__button" onclick="window.open('https://www.kinopoisk.ru/media/rubric/16/', '_blank', 'noopener,noreferrer')">Популярное</button>
+                        <div class="dest-popular">
+                            <a onclick="window.open('https://thegirl.ru/articles/kulturnyi-khod-pochemu-tarantino-genii/', '_blank', 'noopener,noreferrer')"><img class="popular__item" src="./img/Promo-slide/Slide1.jpg" alt="Тарантино"></a>
+                            <a onclick="window.open('https://uznayvse.ru/interesting-facts/samyie-pervyie-filmyi-v-mire.html', '_blank', 'noopener,noreferrer')"><img class="popular__item" src="./img/Promo-slide/Slide2.jpg" alt="Первые фильмы"></a>
+                            <a onclick="window.open('https://www.kinopoisk.ru/media/news/4008991/', '_blank', 'noopener,noreferrer')"><img class="popular__item" src="./img/Promo-slide/Slide3.jpg" alt="Оскар"></a>
+                            <a onclick="window.open('https://www.kinopoisk.ru/media/article/3146486/', '_blank', 'noopener,noreferrer')"><img class="popular__item" src="./img/Promo-slide/Slide4.jpg" alt="Кубрик"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="facts">
+            <div class="wrapper">
+                <div class="facts__wrapper">
+                    <div class="facts__button-block" id="section3">
+                        <button class="facts__button">Интервью</button>
+                        <button class="facts__button">Биографии</button>
+                        <button class="facts__button">Интересные факты</button>
+                    </div>
+                </div>
+                <div class="facts-list">
+                    <div class="facts-list__card">
+                        <div class="facts-container">
+                            <h3 class="facts-header">Квентин Тарантино: «Вообще-то Брюс Ли и правда был заносчивым парнем»</h3>
+                            <div class="facts-content">
+                                <div class="facts-info">
+                                    <p class="facts-list__text">Знаменитый режиссер представил в столице свою девятую картину «Однажды в…Голливуде» и рассказал, как он ребенком смотрел советский фильм «Человек-амфибия» и кто еще смог бы побить Брюса Ли...</p>
+                                    <button class="facts-list__button" onclick="window.open('https://www.kinopoisk.ru/media/article/3400334/', '_blank', 'noopener,noreferrer')">Читать полностью</button>
+                                </div>
+                                <img class="facts-list__img" src="./img/Facts/fact1.svg" alt="Fact 1">
+                            </div>
+                        </div>
+                        <p class="facts-list__autor"><b>Автор:</b>&nbsp;Ольга Белик</p>
+                    </div>
+                    <div class="facts-list__card">
+                        <div class="facts-container">
+                            <h3 class="facts-header">Кто и как работал над «Мальчиком и птицей»?</h3>
+                            <div class="facts-content">
+                                <div class="facts-info">
+                                    <p class="facts-list__text">Новая и, как оказалось, совсем не последняя работа Хаяо Миядзаки «Мальчик и птица»выходит в прокат 7 декабря. Мастер не любит общаться с журналистами, но зато нам удалось поговорить с теми, ктопомог ему осуществить важнейший проект в фильмографии...</p>
+                                    <button class="facts-list__button" onclick="window.open('https://www.kinopoisk.ru/media/article/4008776/', '_blank', 'noopener,noreferrer')">Читать полностью</button>
+                                </div>
+                                <img class="facts-list__img" src="./img/Facts/fact2.svg" alt="Fact 2">
+                            </div>
+                        </div>
+                        <p class="facts-list__autor"><b>Автор:</b>&nbsp;Кира Голубева</p>
+                    </div>
+                    <div class="facts-list__card">
+                        <div class="facts-container">
+                            <h3 class="facts-header">Мадс Миккельсен: «Готов играть плохих парней в любое время»</h3>
+                            <div class="facts-content">
+                                <div class="facts-info">
+                                    <p class="facts-list__text">Мадс Миккельсен завоевал всемирную любовь сначала ролями брутальных воителей,затем — колоритных злодеев, а совсем недавно сломал зрительские шаблоны образами тихих пьющих учителей с червоточинкой...</p>
+                                    <button class="facts-list__button" onclick="window.open('https://www.kinopoisk.ru/media/article/4007057/', '_blank', 'noopener,noreferrer')">Читать полностью</button>
+                                </div>
+                                <img class="facts-list__img" src="./img/Facts/fact3.svg" alt="Fact 3">
+                            </div>
+                        </div>
+                        <p class="facts-list__autor"><b>Автор:</b>&nbsp;Юлия Лоло</p>
+                    </div>
+                    <div class="facts-list__card">
+                        <div class="facts-container">
+                            <h3 class="facts-header">«Мой Бэтмен целыми днями читает Twitter»</h3>
+                            <div class="facts-content">
+                                <div class="facts-info">
+                                    <p class="facts-list__text">В “Бэтмене” Мэтта Ривза Темный рыцарь защищает Готэм лишь второй год и не до концапонимает, как себя вести. Тем временем в городе появляется серийный убийца Загадочник, жертвами которогостановятся высокопоставленные чиновники...</p>
+                                    <button class="facts-list__button" onclick="window.open('https://www.kinopoisk.ru/media/article/4006014/', '_blank', 'noopener,noreferrer')">Читать полностью</button>
+                                </div>
+                                <img class="facts-list__img" src="./img/Facts/fact4.svg" alt="Fact 4">
+                            </div>
+                        </div>
+                        <p class="facts-list__autor"><b>Автор:</b>&nbsp;Михаил Моркин</p>
+                    </div>
+                </div>
+                </div>
+            <img src="./img/tape-1.jpg" class="tape-image-left" alt="Левая лента">
+            <img src="./img/tape-2.jpg" class="tape-image-right" alt="Правая лента">
+        </section>
+
+        <section class="films">
+            <div class="films__header"><h2 id="section2">Топ фильмов по мнению пользователей в этом месяце</h2></div>
+            <div class="wrapper">                
+                <div class="films-table">
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/476/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film1.svg" alt="Назад в будущее" class="films-card__img">
+                        <p class="films-card__text">Назад в будущее (1985г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/344/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film2.svg" alt="Психо" class="films-card__img">
+                        <p class="films-card__text">Психо <br>(1960г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/725190/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film3.svg" alt="Одержимость" class="films-card__img">
+                        <p class="films-card__text">Одержимость (2013г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/387556/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film4.svg" alt="Хатико" class="films-card__img">
+                        <p class="films-card__text">Хатико <br>(2009г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/841081/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film5.svg" alt="Ла-ла Лэнд" class="films-card__img">
+                        <p class="films-card__text">Ла-ла Лэнд <br>(2016г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/1108577/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film6.svg" alt="Зеленая книга" class="films-card__img">
+                        <p class="films-card__text">Зеленая книга (2018г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/448/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film7.svg" alt="Форест Гамп" class="films-card__img">
+                        <p class="films-card__text">Форест Гамп (1994г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/21844/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film8.svg" alt="Клуб “Завтрак”" class="films-card__img">
+                        <p class="films-card__text">Клуб “Завтрак” (1985г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/361/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film9.svg" alt="Бойцовский клуб" class="films-card__img">
+                        <p class="films-card__text">Бойцовский клуб (1999г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/544/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film10.svg" alt="Инопланетянин" class="films-card__img">
+                        <p class="films-card__text">Инопланетянин (1982г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/1143242/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film11.svg" alt="Джентельмены" class="films-card__img">
+                        <p class="films-card__text">Джентельмены (2019г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/389/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film12.svg" alt="Леон" class="films-card__img">
+                        <p class="films-card__text">Леон <br>(1994г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/77132/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film13.svg" alt="Мемуары гейши" class="films-card__img">
+                        <p class="films-card__text">Мемуары гейши (2005г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/1048334/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film14.svg" alt="Джокер" class="films-card__img">
+                        <p class="films-card__text">Джокер <br>(2019г)</p></a>
+                    </div>
+                    <div class="films-card">
+                        <a class="film-card__url" href="https://www.kinopoisk.ru/film/461782/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/films/film15.svg" alt="Помни меня" class="films-card__img">
+                        <p class="films-card__text">Помни меня <br>(2010г)</p></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-social">
+                <div class="footer-social__email">
+                    <p class="footer-social__email-text">Хочешь поделиться впечатлениями от фильма или внести предложения? Напиши нам!</p>
+                    <form action="mailto:example@example.com" method="post" enctype="text/plain">
+                        <input type="email" id="email" name="email" placeholder="Электронная почта: ______________________" required>
+                        
+                        <label for="message"></label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <p class="footer-social__email-personal">Нажимая на кнопку вы даете согласие на обработку персональных данных</p>
+                        
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+                <div class="footer-social__buttons">
+                    <a class="social-button" href="https://t.me/onlyRISHAs" target="_blank" rel="noopener noreferrer"><img src="./img/footIcons/footIconTG.svg" alt="TG"></a>
+                    <a class="social-button" href="https://vk.com/arishka2117" target="_blank" rel="noopener noreferrer"><img src="./img/footIcons/footIconVK.svg" alt="VK"></a>
+                    <a class="social-button" href="mailto:Arina_barinova_2003@bk.ru"><img src="./img/footIcons/footIconMail.svg" alt="Mail"></a>
+                </div>
+            </div>
+            <div class="footer__list">
+                <ul>
+                    <li><a href="#section1">Популярное</a></li>
+                    <li><a href="#section3">Читать</a></li>
+                    <li><a href="https://ya.ru/funtech-sales/portal" target="_blank" rel="noopener noreferrer">Реклама</a></li>
+                    <li><a href="https://www.yandex.ru/legal/kinopoisk_termsofuse/" target="_blank" rel="noopener noreferrer">Соглашение</a></li>
+                    <li><a href="#section2">Смотреть</a></li>
+                </ul>
+            </div>
+            <a class="header_logo" href="./index.html" target="_blank" rel="noopener noreferrer"><img src="./img/icons/Vision.svg" alt="Логотип"></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
